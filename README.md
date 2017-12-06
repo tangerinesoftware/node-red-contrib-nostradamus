@@ -1,1 +1,1 @@
-# node-red-contrib-nostradamus
+nostradamusnostradamus.js for node-red
