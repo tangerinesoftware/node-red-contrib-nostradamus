@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\NodeJSPortable\\App\\NodeJS\\node.exe',
+1 verbose cli   'E:\\NodeJSPortable\\Data\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'link' ]
+2 info using npm@3.5.3
+3 info using node@v5.7.0
+4 verbose linkPkg E:\NodeJSPortable\nostradamus
+5 silly gentlyRm E:\NodeJSPortable\Data\node_modules\node-red-contrib-nostradamus is being purged
+6 verbose gentlyRm don't care about contents; nuking E:\NodeJSPortable\Data\node_modules\node-red-contrib-nostradamus
+7 verbose stack Error: EISDIR: illegal operation on a directory, symlink 'E:\NodeJSPortable\nostradamus' -> 'E:\NodeJSPortable\Data\node_modules\node-red-contrib-nostradamus'
+7 verbose stack     at Error (native)
+8 verbose cwd E:\NodeJSPortable\nostradamus
+9 error Windows_NT 6.1.7601
+10 error argv "E:\\NodeJSPortable\\App\\NodeJS\\node.exe" "E:\\NodeJSPortable\\Data\\node_modules\\npm\\bin\\npm-cli.js" "link"
+11 error node v5.7.0
+12 error npm  v3.5.3
+13 error path E:\NodeJSPortable\nostradamus
+14 error code EISDIR
+15 error errno -4068
+16 error syscall symlink
+17 error eisdir EISDIR: illegal operation on a directory, symlink 'E:\NodeJSPortable\nostradamus' -> 'E:\NodeJSPortable\Data\node_modules\node-red-contrib-nostradamus'
+18 error eisdir This is most likely not a problem with npm itself
+18 error eisdir and is related to npm not being able to find a package.json in
+18 error eisdir a package you are trying to install.
+19 verbose exit [ -4068, true ]

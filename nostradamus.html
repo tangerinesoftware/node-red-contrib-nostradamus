@@ -1,0 +1,31 @@
+<script type="text/javascript">
+    RED.nodes.registerType('nostradamus',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+	    stripFunction: {value:false}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "function.png",
+        label: function() {
+            return this.name||"nostradamus";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="nostradamus">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-stripFunction"><i class="icon-tag"></i> Strip function from topic</label>
+        <input type="checkbox" id="node-input-stripFunction" placeholder="Strip">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="nostradamus">
+    <p>nostradamus.js is a time-series forecasting tool for Node.js <a href="https://github.com/wdamron/Nostradamus.js">nostradamus.js</a> library.</p>
+</script>

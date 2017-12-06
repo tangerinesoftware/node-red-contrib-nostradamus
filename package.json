@@ -1,0 +1,30 @@
+{
+  "name": "node-red-contrib-nostradamus",
+  "version": "0.1.0",
+  "description": "nostradamus.js is a time-series forecasting tool for Node.js",
+  "dependencies": {
+    "nostradamus": "0.1.0"
+  },
+  "author": {
+    "name": "Nick Pye",
+    "email": "nick.pye@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node-red",
+    "nostradamus"
+  ],
+  "bugs": {
+    "url": "https://github.com/tangerinesoftware/node-red-contrib-nostradamus/issues"
+  },
+  "homepage": "https://github.com/tangerinesoftware/node-red-contrib-nostradamus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tangerinesoftware/node-red-contrib-nostradamus.git"
+  },
+  "node-red": {
+    "nodes": {
+      "nostradamus": "nostradamus.js"
+    }
+  }
+}
