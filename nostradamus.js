@@ -20,7 +20,7 @@
 
      function nostradamusNode(config) {
          RED.nodes.createNode(this,config);
-
+         var node = this;
          node.on('input', function(msg) {
              msg.payload = forecast(msg.payload, msg.alpha, msg.beta, msg.gamma, msg.period, msg.m);
              node.send(msg);
